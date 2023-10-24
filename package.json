@@ -8,7 +8,7 @@
     "supertest": "^6.3.3"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "name": "budgetingapp",
   "description": "Full Stack Budgeting App Budgtr is an application where people can log their financial transactions. Building this application will require you to bring together all you've learned about JavaScript, building websites, React, servers and RESTful routes.",
@@ -16,5 +16,6 @@
   "main": "app.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }
